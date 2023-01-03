@@ -4,8 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Elana-Ehsan&#39;s Blog">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="如何创建自己的blog--基于Github+Hexo, Elana-Ehsan&#39;s Blog">
+    <meta name="description" content="一、概述可以参考以下文章，我就是参考这个文章，很多内容也来源于以下链接
+GitHub+Hexo 搭建个人网站详细教程 - 知乎 (zhihu.com)
+1、HexoHexo是一种快速、简洁高效的博客框架
+主要功能：搭建博客的前端页面框架，并">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +20,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | Elana-Ehsan&#39;s Blog</title>
+    <title>如何创建自己的blog--基于Github+Hexo | Elana-Ehsan&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -334,12 +337,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">如何创建自己的blog--基于Github+Hexo</h1>
                 </div>
             </div>
         </div>
@@ -375,7 +378,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-12-31
+                    2023-01-03
                 </div>
                 
 
@@ -396,19 +399,159 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+                <h2 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h2><p>可以参考以下文章，我就是参考这个文章，很多内容也来源于以下链接</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程 - 知乎 (zhihu.com)</a></p>
+<h3 id="1、Hexo"><a href="#1、Hexo" class="headerlink" title="1、Hexo"></a>1、Hexo</h3><p>Hexo是一种快速、简洁高效的博客框架</p>
+<p>主要功能：搭建博客的前端页面框架，并附带部署功能，可以一键部署到网页上</p>
+<p>官网：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>（配置完成之后再看会很明了，更细节化）</p>
+<h3 id="2、Github"><a href="#2、Github" class="headerlink" title="2、Github"></a>2、Github</h3><p>全球最大的开源平台，可以放自己把自己的代码放上去，而且能给你配置好网页。</p>
+<h3 id="3、Node-js"><a href="#3、Node-js" class="headerlink" title="3、Node.js"></a>3、Node.js</h3><p>我也不是太懂是干什么用的，以后学习再了解</p>
+<h3 id="4、Git"><a href="#4、Git" class="headerlink" title="4、Git"></a>4、Git</h3><p>用来处理项目的，可以把自己的项目上传到github等平台上，也可以方便下载安装一些项目（也是还没学习，不太清楚）</p>
+<p><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站 (liaoxuefeng.com)</a></p>
+<p><a target="_blank" rel="noopener" href="https://git-scm.com/download/win">Git - Downloading Package (git-scm.com)</a></p>
+<h2 id="二、配置部署"><a href="#二、配置部署" class="headerlink" title="二、配置部署"></a>二、配置部署</h2><h3 id="1、安装node-js"><a href="#1、安装node-js" class="headerlink" title="1、安装node.js"></a>1、安装node.js</h3><p><a target="_blank" rel="noopener" href="https://nodejs.org/en/">下载地址：Node.js (nodejs.org)</a></p>
+<p>注意选择LTS版本，这个可以自动配置好PATH环境变量，安装一条龙。</p>
+<p>安装完之后win+R，cmd</p>
+<p><code>node -v</code></p>
+<p>查看node版本；</p>
+<p><code>npm-v</code></p>
+<p>查看包管理器的版本。</p>
+<p>还可以安装一个国内的包管理器cnpm</p>
+<p><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code></p>
+<p>查看cnpm版本</p>
+<p><code>cnpm -v</code></p>
+<h3 id="2、安装Git"><a href="#2、安装Git" class="headerlink" title="2、安装Git"></a>2、安装Git</h3><p><a target="_blank" rel="noopener" href="https://git-scm.com/download/win">Git - Downloading Package (git-scm.com)</a></p>
+<p>批处理，方便处理代码</p>
+<h3 id="3、创建博客文件夹，安装hexo"><a href="#3、创建博客文件夹，安装hexo" class="headerlink" title="3、创建博客文件夹，安装hexo"></a>3、创建博客文件夹，安装hexo</h3><p>先创建一个文件夹用来放自己的blog</p>
+<p>再右键打开</p>
+<p><img src="https://pic1.zhimg.com/80/v2-a5450a466c0927c25dff8ad6f1d2046c_1440w.webp" alt="img"></p>
+<p>输入</p>
+<p><code>npm install -g hexo-cli </code></p>
+<p>或者</p>
+<p><code>cnpm install -g hexo-cli </code></p>
+<p>用来把hexo安装到blog文件夹中</p>
+<p>注意：这里的命令都是作用再blog文件夹中</p>
+<p>用<code>hexo -v</code>确认是否安装成功</p>
+<p>安装完成后，初始化我们的博客，输入：</p>
+<p><code>hexo init blog</code></p>
+<p>可以用</p>
+<p><code>hexo s</code></p>
+<p>根据提示用网页打开预览（只是在本机上预览，并没有上传）</p>
+<h3 id="4、常用的hexo命令"><a href="#4、常用的hexo命令" class="headerlink" title="4、常用的hexo命令"></a>4、常用的hexo命令</h3><p>注意：都是作用在blog文件夹中，可以右键用Git Bash Here打开</p>
+<p>现在来介绍常用的Hexo 命令</p>
+<p>npm install hexo -g #安装Hexo<br>npm update hexo -g #升级<br>hexo init #初始化博客</p>
+<p>命令简写<br>hexo n “我的博客” &#x3D;&#x3D; hexo new “我的博客” #新建文章<br>hexo g &#x3D;&#x3D; hexo generate #生成<br>hexo s &#x3D;&#x3D; hexo server #启动服务预览<br>hexo d &#x3D;&#x3D; hexo deploy #部署</p>
+<p>hexo server #Hexo会监视文件变动并自动更新，无须重启服务器<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP<br>hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</p>
+<p>刚刚的三个命令依次是新建一篇博客文章、生成网页、在本地预览的操作。</p>
+<p>【摘自知乎】</p>
+<h3 id="5、部署网站——以Github为例"><a href="#5、部署网站——以Github为例" class="headerlink" title="5、部署网站——以Github为例"></a>5、部署网站——以Github为例</h3><h4 id="（1）配置SSH"><a href="#（1）配置SSH" class="headerlink" title="（1）配置SSH"></a>（1）配置SSH</h4><p>之所以设置GitHub密钥，是通过非对称加密的公钥与私钥来完成加密，公钥放置在GitHub上，私钥放置在自己的电脑里。GitHub要求每次推送代码都是合法用户，所以每次推送都需要输入账号密码验证推送用户是否是合法用户，为了省去每次输入密码的步骤，采用了ssh，当你推送的时候，git就会匹配你的私钥跟GitHub上面的公钥是否是配对的，若是匹配就认为你是合法用户，则允许推送。这样可以保证每次的推送都是正确合法的。</p>
+<h5 id="第一步：在Git中获取ssh"><a href="#第一步：在Git中获取ssh" class="headerlink" title="第一步：在Git中获取ssh"></a>第一步：在Git中获取ssh</h5><p>右键Git Bash Here</p>
+<p><code>git config --global user.name &quot;你的GitHub用户名&quot; git config --global user.email &quot;你的GitHub注册邮箱&quot;</code></p>
+<p>设置配置信息</p>
+<p>生成ssh密钥：</p>
+<p><code>ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱（随便一个邮箱都可以，这里是方便记忆）&quot;</code></p>
+<p>然后直接三个回车即可，默认不需要设置密码<br>然后找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制</p>
+<p><img src="https://pic4.zhimg.com/80/v2-d1e47103ec1aa8675f68688c5d63bd27_1440w.webp" alt="img"></p>
+<h5 id="第二步：打开Github添加SSH密钥"><a href="#第二步：打开Github添加SSH密钥" class="headerlink" title="第二步：打开Github添加SSH密钥"></a>第二步：打开Github添加SSH密钥</h5><p>右上角头像设置——SSH公钥</p>
+<p>可以参考以下文章</p>
+<p><a target="_blank" rel="noopener" href="https://gitee.com/help/articles/4181">生成&#x2F;添加SSH公钥 - Gitee.com</a></p>
+<p>用<code>ssh git@github.com</code>来判断是否成功建立连接（根据提示有可能要输入yes）</p>
+<p>这样我们就把电脑和github建立连接了</p>
+<h4 id="（2）在Github上建立仓库"><a href="#（2）在Github上建立仓库" class="headerlink" title="（2）在Github上建立仓库"></a>（2）在Github上建立仓库</h4><p>登录到GitHub,如果没有GitHub帐号，使用你的邮箱注册GitHub帐号：<a href="https://link.zhihu.com/?target=https://github.com/">Build software better, together</a> 点击GitHub中的New repository创建新仓库，仓库名应该为：<strong>用户名</strong>.<a href="https://link.zhihu.com/?target=http://github.io">http://github.io</a> 这个<strong>用户名</strong>使用你的GitHub帐号名称代替，这是固定写法，比如：</p>
+<p><img src="https://pic4.zhimg.com/80/v2-832168e58b4ac4ce7c3cca797711d2d3_1440w.webp" alt="img"></p>
+<p>（名称一定要对，因为github根据这个名称为你生成网站）</p>
+<h4 id="（3）配置Hexo的config"><a href="#（3）配置Hexo的config" class="headerlink" title="（3）配置Hexo的config"></a>（3）配置Hexo的config</h4><p>虽然电脑和github建立了连接，但是hexo并没有建立，需要调整_config.yml文件</p>
+<p>推荐使用vscode打开文件，便于编辑，在config文件里也可以去寻找官网的参考文档<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a></p>
+<p>现在主要是修改deploy（部署）部分</p>
+<p>翻到最后，</p>
+<p><img src="C:\Users\10843\AppData\Roaming\Typora\typora-user-images\image-20230103181155201.png" alt="image-20230103181155201"></p>
+<p>这样修改就可以了，第二行格式是github给的（SSH格式），可以参考GitHub文档（如果创建个人仓库的时候不选择创建Readme就自动出现）</p>
+<p>其实就是给hexo d 这个命令做相应的配置，让hexo知道你要把blog部署在哪个位置，很显然，我们部署在我们GitHub的仓库里</p>
+<h4 id="（4）安装Hexo的Git部署插件（别忘记）"><a href="#（4）安装Hexo的Git部署插件（别忘记）" class="headerlink" title="（4）安装Hexo的Git部署插件（别忘记）"></a>（4）安装Hexo的Git部署插件（别忘记）</h4><p><code>npm install hexo-deployer-git --save</code></p>
+<h4 id="（5）部署测试"><a href="#（5）部署测试" class="headerlink" title="（5）部署测试"></a>（5）部署测试</h4><p>这时，我们分别输入三条命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean </span><br><span class="line">hexo g </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>其实第三条的 hexo d 就是部署网站命令，d是deploy的缩写。完成后，打开浏览器，在地址栏输入你的放置个人网站的仓库路径，即</p>
+<p><code>xxxx.github.io</code></p>
+<p>比如我的xxxx就是我的GitHub用户名：</p>
+<p><img src="https://pic1.zhimg.com/80/v2-d750452f4258bf0967d5629ef23d1b10_1440w.webp" alt="img"></p>
+<p>你就会发现你的博客已经上线了，可以在网络上被访问了。</p>
+<h3 id="6、（可选）绑定域名"><a href="#6、（可选）绑定域名" class="headerlink" title="6、（可选）绑定域名"></a>6、<strong>（可选）绑定域名</strong></h3><p>（见知乎：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程 - 知乎 (zhihu.com)</a>）</p>
+<h3 id="7、发布文章"><a href="#7、发布文章" class="headerlink" title="7、发布文章"></a>7、<strong>发布文章</strong></h3><p>我们开始正式发布上线博客文章，在命令行中输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">&quot;博客名字&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>我们会发现在blog根目录下的source文件夹中的_post文件夹中多了一个 <strong>博客名字.md</strong> 文件，使用Markdown编辑器打开，就可以开始你的个人博客之旅了，Markdown常用的样式也就十来种，完全能够满足一般博文的样式要求，这是我的一篇博文内容示例：</p>
+<p><img src="https://pic1.zhimg.com/80/v2-4f96cd03a88e68b8ae86c38bfb0808ac_1440w.webp" alt="img"></p>
+<p>通过带有预览样式的Markdown编辑器实时预览书写的博文样式，也可以通过命令 hexo s –debug 在本地浏览器的localhost:4000 预览博文效果。写好博文并且样式无误后，通过hexo g、hexo d 生成、部署网页。随后可以在浏览器中输入域名浏览。</p>
+<h2 id="三、个性化"><a href="#三、个性化" class="headerlink" title="三、个性化"></a>三、个性化</h2><h3 id="1、主题更换"><a href="#1、主题更换" class="headerlink" title="1、主题更换"></a>1、主题更换</h3><p>主题选择：<a target="_blank" rel="noopener" href="https://hexo.io/themes/">Themes | Hexo</a></p>
+<p>还有一个：<a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">github一个用的很多的主题</a></p>
+<p>如果你不喜欢Hexo默认的主题，可以更换不同的主题</p>
+<p>我自己使用的是Next主题，可以在blog目录中的themes文件夹中查看你自己主题是什么。现在把默认主题更改成Next主题，在blog目录中（就是命令行的位置处于blog目录）打开命令行输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>这是将Next主题下载到blog目录的themes主题下的next文件夹中。打开<strong>站点</strong>的_config.yml配置文件，修改主题为next</p>
+<p><img src="https://pic1.zhimg.com/80/v2-b1997377e82408cb15b485c65ae00f70_1440w.webp" alt="img"></p>
+<p>打开<strong>主题</strong>的_config.yml配置文件，不是站点主题文件，找到Scheme Settings</p>
+<p><img src="https://pic2.zhimg.com/80/v2-1ac152c4aabe4c10b762ee27552f1105_1440w.webp" alt="img"></p>
+<p>next主题有三个样式，我用的是Pisces，你们可以自己试试看，选择你自己喜欢的样式（只需要把行首的#去除，#是注释），选择好后，再次部署网站，hexo g、hexo d，查看效果。选择其他主题，按照上述过程即可实现。</p>
+<h3 id="2、文档编辑"><a href="#2、文档编辑" class="headerlink" title="2、文档编辑"></a>2、文档编辑</h3><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。Markdown语法简洁明了、容易掌握，而且功能比纯文本更强，因此写博客使用它，可以让用户更加专注的写文章，而不需要费尽心力的考虑样式，相对于html已经算是轻量级语言，像有道云笔记也支持Markdown写作。并且Markdown完全兼容html，也就是可以在文章里直接插入html代码。比如给博文添加音乐，就可以直接把音乐的外链html代码插入文章中。具体语法参看：<a href="https://link.zhihu.com/?target=http://www.appinn.com/markdown/">Markdown 语法说明(简体中文版)</a> 可以说十分钟就可以入门。可以用VScode查看。【摘自知乎】</p>
+<p>而编辑文档的替代方案：Typora，我用的就是Typora，不用学什么md语法，直接编辑直接转，特别好用。</p>
+<p>建议支持正版，如果经济实力不允许，下面有一个很早之前的版本：</p>
+<p>【等待插入，技术限制】</p>
+<h3 id="3、关于图片"><a href="#3、关于图片" class="headerlink" title="3、关于图片"></a>3、关于图片</h3><p>考虑把博文里的图片上传到某一网站，然后获得外部链接，使用Markdown语法，**<img src="/%E5%A4%96%E9%83%A8%E9%93%BE%E6%8E%A5" alt="图片信息">** 完成图片的插入，这种网站就被成为图床。图床最重要的就是稳定速度快，所以在挑选图床的时候一定要仔细，下图是博文插入图片，使用图床外链的示例：</p>
+<p>![img](<a target="_blank" rel="noopener" href="https://pic4.zhimg.com/80/v2-92372e522595af139ace5f371aae3ff3_1440w.webp">https://pic4.zhimg.com/80/v2-92372e522595af139ace5f371aae3ff3_1440w.webp</a></p>
+<p><img src="C:\Users\10843\AppData\Roaming\Typora\typora-user-images\image-20230103182945541.png" alt="image-20230103182945541"></p>
+<p>（其实用Typora直接解决一切问题，注意插入图片后更换图片的链接）</p>
+<h3 id="4、网站的页面修改"><a href="#4、网站的页面修改" class="headerlink" title="4、网站的页面修改"></a>4、网站的页面修改</h3><p>在站点配置文件_config.yml修改基本的站点信息</p>
+<p><img src="https://pic4.zhimg.com/80/v2-78bc0e4e6498c9c3cb269b3254d8379f_1440w.webp" alt="img"></p>
+<p>依次是网站标题、副标题、网站描述、作者、网站头像外部链接、网站语言、时区等。</p>
+<p>在主题配置文件_config.yml修改基本的主题信息，如：</p>
+<p><img src="https://pic2.zhimg.com/80/v2-451c5cb2fd6516650ad8ca608031bf0d_1440w.webp" alt="img"></p>
+<p>博文打赏的微信、支付宝二维码图片，这里我是直接把这两张放在根目录的source文件夹中，并没有使用图床外链。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-69bbc45e973eb6916e08187ed8b33a55_1440w.webp" alt="img"></p>
+<p>社交外链的设置，即在侧栏展示你的个人社交网站信息。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-5b3f6e02e0d3a0cdb685a4d2fd2718cb_1440w.webp" alt="img"></p>
+<p>博文分享的插件jiathis，值设置为true。</p>
+<p><strong>在配置文件中有很多的个性化设置，可以自尝试更多的修改。</strong></p>
+<h3 id="5、其他很有意思的个性化"><a href="#5、其他很有意思的个性化" class="headerlink" title="5、其他很有意思的个性化"></a>5、其他很有意思的个性化</h3><ul>
+<li><h4 id="添加网易云音乐"><a href="#添加网易云音乐" class="headerlink" title="添加网易云音乐"></a>添加网易云音乐</h4></li>
+</ul>
+<p>打开网页版的网易云音乐，选择喜欢的音乐，点击生成外链播放器</p>
+<p><img src="https://pic2.zhimg.com/80/v2-fcb7d44ccdca3760c98db0d13817f2b5_1440w.webp" alt="img"></p>
+<p>复制外链的代码</p>
+<p><img src="https://pic4.zhimg.com/80/v2-16eec195312cde7b1d257fac6f3c8d0b_1440w.webp" alt="img"></p>
+<p>比如在侧栏插入这首歌的音乐播放器，修改 blog\themes\next\layout_macro的sidebar.swig文件，添加刚刚复制的外链代码</p>
+<p><img src="https://pic4.zhimg.com/80/v2-03db51002497b27e4d5888e0efd577c7_1440w.webp" alt="img"></p>
+<p>重新生成、部署网页，效果如下</p>
+<p><img src="https://pic2.zhimg.com/80/v2-3d587bf919df92db38e2608f034e50f1_1440w.webp" alt="img"></p>
+<ul>
+<li><h4 id="设置背景"><a href="#设置背景" class="headerlink" title="设置背景"></a>设置背景</h4></li>
+</ul>
+<p>把你挑选的背景图片命名为：background.jpg，放在blog\themes\next\source\images里，在blog\themes\next\source\css_custom文件的custom.styl首部添加：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>:<span class="built_in">url</span>(<span class="string">/images/background.jpg</span>);</span><br><span class="line">  <span class="attribute">background-attachment</span>: fixed;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>background-attachment: fixed;是固定背景图片。</p>
+<p>这是设置一张静态图片作为背景，其实Next主题自带有动态的背景效果，修改主题配置文件中的canvas_nest: false为canvas_nest: true即可。</p>
+<ul>
+<li><h4 id="增加侧栏菜单条目"><a href="#增加侧栏菜单条目" class="headerlink" title="增加侧栏菜单条目"></a>增加侧栏菜单条目</h4></li>
+</ul>
+<p>默认的侧栏菜单条目有：首页、归档、标签、关于、搜索等。如果你想要增加其他的菜单条目，修改主题配置文件_config.yml里的Menu Settings中的menu和menu_icons两个地方</p>
+<p><img src="https://pic3.zhimg.com/80/v2-666a22fedbba95d979eeb26e52fc29e2_1440w.webp" alt="img"></p>
+<p>其中menu里是配置菜单项对应的页面位置（如：&#x2F;love），menu_icons对应菜单项的图标，这里的图标是来自于<a href="https://link.zhihu.com/?target=http://fontawesome.io/">Font Awesome</a> ，所以你需要在Font Awesome网站上找到你需要的icon，然后把该icon的名字写在menu_icons对应菜单名后面，注意冒号有一个英文输入状态的空格。设置好后，在命令行里输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">&quot;你所要增加的菜单项名称（要和你在menu中的填写要匹配）&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>新建的页面在博客根目录下的source文件里，这时你就可以对新建的页面自定义设计。</p>
+<p>还有更多的进阶个性化设置，如SEO、评论系统、个人头像、博客分享、订阅功能、High功能、404网页设置等，可以参看：</p>
+<p><a href="https://link.zhihu.com/?target=http://theme-next.iissnan.com/theme-settings.html">主题配置 - NexT 使用文档</a></p>
+<p><a href="https://link.zhihu.com/?target=http://theme-next.iissnan.com/third-party-services.html">第三方服务集成 - NexT 使用文档</a></p>
+<p><a href="https://link.zhihu.com/?target=http://theme-next.iissnan.com/tag-plugins.html">内置标签 - NexT 使用文</a></p>
+<p><a href="https://link.zhihu.com/?target=http://theme-next.iissnan.com/tag-plugins.html">档</a><a href="https://link.zhihu.com/?target=http://theme-next.iissnan.com/advanced-settings.html">进阶设定 - NexT 使用文档</a></p>
+<p>有很多人私信问我High功能特效如何设置，这里推荐一篇同是Next主题网站博主的文章：<a href="https://link.zhihu.com/?target=http://www.iamlj.com/2016/08/add-special-effect-harlem-shake-for-hexo/">为Hexo Next主题添加哈林摇特效（五）</a></p>
+<p>【摘自知乎】</p>
+<h2 id="四、参考文章"><a href="#四、参考文章" class="headerlink" title="四、参考文章"></a>四、参考文章</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_21808961/article/details/84476504">(17条消息) hexo d命令报错 ERROR Deployer not found: git_蓝蓝223的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程 - 知乎 (zhihu.com)</a></p>
+<p><a target="_blank" rel="noopener" href="https://superior-leo.gitee.io/2021/01/29/da-jian-shu-yu-zi-ji-de-bo-ke/">我的第一篇博客 | Superior_leo (gitee.io)</a></p>
+<p>如果要部署到gitee上，原理相同，改个网站即可</p>
 
                 
             </div>
@@ -435,7 +578,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://elana-ehsan.github.io/2022/12/31/hello-world/">https://elana-ehsan.github.io/2022/12/31/hello-world/</a>
+                    <a href="https://elana-ehsan.github.io/2023/01/03/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84blog--%E5%9F%BA%E4%BA%8EGithub+Hexo/">https://elana-ehsan.github.io/2023/01/03/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84blog--%E5%9F%BA%E4%BA%8EGithub+Hexo/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -549,9 +692,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
                 <a href="/2023/01/03/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84blog--%E5%9F%BA%E4%BA%8EGithub+Hexo/">
                     <div class="card-image">
@@ -569,9 +713,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-01-03
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-01-03
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -580,6 +724,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -587,7 +732,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2022/12/31/hello-world/">
@@ -617,7 +762,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
