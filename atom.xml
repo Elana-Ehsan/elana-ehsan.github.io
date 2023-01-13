@@ -6,7 +6,7 @@
   <link href="https://elana-ehsan.github.io/atom.xml" rel="self"/>
   
   <link href="https://elana-ehsan.github.io/"/>
-  <updated>2023-01-03T10:45:05.061Z</updated>
+  <updated>2023-01-13T04:50:36.968Z</updated>
   <id>https://elana-ehsan.github.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://elana-ehsan.github.io/2023/01/13/tiao-zhan-wan-mei-zhu-yi/"/>
+    <id>https://elana-ehsan.github.io/2023/01/13/tiao-zhan-wan-mei-zhu-yi/</id>
+    <published>2023-01-13T04:50:11.571Z</published>
+    <updated>2023-01-13T04:50:36.968Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=262359948&amp;bvid=BV1ae411F7vo&amp;cid=882266522&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://elana-ehsan.github.io/2023/01/13/latex-xue-xi-zhuan-zai/"/>
+    <id>https://elana-ehsan.github.io/2023/01/13/latex-xue-xi-zhuan-zai/</id>
+    <published>2023-01-13T01:42:15.013Z</published>
+    <updated>2023-01-13T01:42:02.620Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;LaTeX学习（转载）&quot;&gt;&lt;a href=&quot;#LaTeX学习（转载）&quot; class=&quot;headerlink&quot; title=&quot;LaTeX学习（转载）&quot;&gt;&lt;/a&gt;LaTeX学习（转载）&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>如何创建自己的blog--基于Github+Hexo</title>
