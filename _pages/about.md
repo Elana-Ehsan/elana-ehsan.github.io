@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "About Me"
+excerpt: "Homepage of Ziyi Guo"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,16 +17,24 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am **Ziyi Guo (郭子毅)**, an undergraduate student at **Wuhan University, Hongyi Honor College**, majoring in **Microelectronics Science & Engineering (EE)** (GPA: 3.94/4.00, ranked 2/55).  
+In **Spring 2025**, I studied at **UC Berkeley** through the Berkeley International Study Program, and since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by Prof. Yiran Chen and Dr. Changchun Zhou.  
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests include: 
+- Digital & Analog IC Design  
+- Energy-efficient AI accelerators (SoC/ASIC) 
 
+---
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.06*: Joined Duke University as a module leader in the project **Energy-efficient SoC for Generative AI**.  
+- *2025.05*: Completed **RISC-V 3-Stage CPU with UART on FPGA** projects at UC Berkeley. 
+- *2024.09*: I won National Scholarship (top 2%)!
+- *2024.06*: Started leading the project **Thermal Dissipation Mechanism of High-Temperature Hydrogels** at Wuhan University.  
 
-# 📝 Publications 
+---
+
+<!-- # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -40,19 +48,61 @@ My research interest includes neural machine translation and computer vision. I 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+
+# 📝 Selected Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Duke Univ. 2025</div><img src='images/soc_accelerator.png' alt="soc" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Energy-efficient Acceleration SoC for Generative AI**  
+Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*  
+- Designed Unified Function Processor (UFP) for nonlinear ops (ReLU, GeLU, Softmax).  
+- Built Sample Processing Module (SMP) and Data Similarity Module (DSM).  
+- Led Verilog implementation, co-simulation, and system integration.  
+</div>
+</div>
+
+- **RISC-V 3-Stage Pipelined CPU with UART on FPGA** (UC Berkeley, 2025)  
+Designed and implemented from scratch, including hazard detection, forwarding, branch prediction, and UART. Achieved CPI improvement from 1.60 → 1.12 and frequency increase to 90 MHz.  
+
+- **Analog Front-End Circuit Design for IoT Chip** (UC Berkeley, 2025)  
+Designed SAR ADC, PGA, BGT, multiplexer, regulators; optimized for low-power IoT applications.  
+
+- **Thermal Dissipation Mechanism of High-Temperature Hydrogels** (Wuhan Univ., 2024– )  
+Developing predictive model to prevent battery thermal runaway; exploring hydrogels and copper foam.  
+
+---
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.11* National Scholarship (*Top 2%*)  
+- *2023\&2024* University Outstanding Student Scholarship
+- *2023\&2024* University Merit Student
+- *2023.09* University Social Activist
+- *2024.09* Outstanding Volunteer of Wuhan University
+
+---
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *Sep 2022 – Jun 2026 (expected)*, **Wuhan University, China**  
+  Hongyi Honor College · Major: Microelectronics Science & Engineering (EE)  
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *Jan 2025 – May 2025*, **University of California, Berkeley**  
+  Berkeley International Study Program · Coursework: Digital Design and IC Circuits (A)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+---
+
+# 💻 Skills
+- **Digital IC Design:** RTL coding, SoC IP, DPI-C co-simulation, AXI bus  
+- **EDA Tools:** Cadence, Vivado, ModelSim, VCS  
+- **Programming:** Verilog/SystemVerilog, Python, C/C++, SQL, Matlab  
+- **Languages:** English (TOEFL 106, CET-6 639) | Chinese (Native)
+
+---
+
+# 💬 Extra-curricular & Leadership
+- Head of **Wuhan University Student Art Troupe** (2024–2025)  
+- Deputy Head of **Petrel Choir** (2024–2025)  
+- Invited to sing at the **2024 WA Chinese New Year Ball** for Australian Prime Minister Albanese  
+- Collaborated with **Dai Yuqiang** (One of the "Three Tenors of China")  
+- Member of Volunteer Center and Kungfu Association (2022–2023)  

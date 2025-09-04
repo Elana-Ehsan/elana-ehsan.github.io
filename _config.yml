@@ -22,9 +22,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ziyi Guo (郭子毅)"
-  avatar           : "images/android-chrome-512x512.jpg"
+  avatar           : "images/android-chrome-512x512.png"
   bio              : "Wuhan University"
-  location         : "Durham, NC, USA"
+  location         : "Wuhan, China"
   employer         :
   pubmed           : 
   googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
