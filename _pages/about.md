@@ -18,11 +18,14 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am **Ziyi Guo (郭子毅)**, an undergraduate student at **Wuhan University, Hongyi Honor College**, majoring in **Microelectronics Science & Engineering (EE)** (GPA: 3.94/4.00, ranked 2/55).  
-In **Spring 2025**, I studied at **UC Berkeley** through the Berkeley International Study Program, and since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by Prof. Yiran Chen and Dr. Changchun Zhou.  
+
+In **Spring 2025**, I studied at **UC Berkeley** through the Berkeley International Study Program, and since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Dr. Changchun Zhou](https://changchun-zhou.github.io/).  
 
 My research interests include: 
 - Digital & Analog IC Design  
 - Energy-efficient AI accelerators (SoC/ASIC) 
+
+<strong style="color:red;">I am actively looking for PhD opportunities in Fall 2026.</strong>
 
 ---
 
@@ -50,10 +53,10 @@ My research interests include:
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-# 📝 Selected Projects
+# 📝 Research Experience
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Duke Univ. 2025</div><img src='images/soc_accelerator.png' alt="soc" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Duke Univ. 2025</div><img src='images/soc_accelerator.png' alt="soc" width="100%"></div></div>
+<div class='paper-box-text' markdown="1"> -->
 
 **Energy-efficient Acceleration SoC for Generative AI**  
 Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*  
@@ -76,8 +79,8 @@ Developing predictive model to prevent battery thermal runaway; exploring hydrog
 
 # 🎖 Honors and Awards
 - *2024.11* National Scholarship (*Top 2%*)  
-- *2023\&2024* University Outstanding Student Scholarship
-- *2023\&2024* University Merit Student
+- *2023&2024* University Outstanding Student Scholarship
+- *2023&2024* University Merit Student
 - *2023.09* University Social Activist
 - *2024.09* Outstanding Volunteer of Wuhan University
 
@@ -96,7 +99,7 @@ Developing predictive model to prevent battery thermal runaway; exploring hydrog
 - **Digital IC Design:** RTL coding, SoC IP, DPI-C co-simulation, AXI bus  
 - **EDA Tools:** Cadence, Vivado, ModelSim, VCS  
 - **Programming:** Verilog/SystemVerilog, Python, C/C++, SQL, Matlab  
-- **Languages:** English (TOEFL 106, CET-6 639) | Chinese (Native)
+- **Languages:** English (TOEFL 106, CET-6 639), Chinese (Native)
 
 ---
 
