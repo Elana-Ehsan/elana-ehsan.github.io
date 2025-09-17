@@ -63,8 +63,6 @@ Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*
 - Designed Unified Function Processor (UFP) for nonlinear ops (ReLU, GeLU, Softmax).  
 - Built Sample Processing Module (SMP) and Data Similarity Module (DSM).  
 - Led Verilog implementation, co-simulation, and system integration.  
-</div>
-</div>
 
 - **RISC-V 3-Stage Pipelined CPU with UART on FPGA** (UC Berkeley, 2025)  
 Designed and implemented from scratch, including hazard detection, forwarding, branch prediction, and UART. Achieved CPI improvement from 1.60 → 1.12 and frequency increase to 90 MHz.  
