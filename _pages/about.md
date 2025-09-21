@@ -22,7 +22,7 @@ I am **Ziyi Guo (郭子毅)**, an undergraduate student at **Wuhan University, H
 In **Spring 2025**, I studied at **UC Berkeley** through the Berkeley International Study Program, and since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Dr. Changchun Zhou](https://changchun-zhou.github.io/).  
 
 My research interests include: 
-- Digital & Analog IC Design  
+- Digital IC Design  
 - Energy-efficient AI accelerators (SoC/ASIC) 
 
 <strong style="color:red;">I am actively looking for PhD opportunities in Fall 2026.</strong>
