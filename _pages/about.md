@@ -30,10 +30,11 @@ My research interests include:
 ---
 
 # 🔥 News
-- *2025.06*: Joined Duke University as a module leader in the project **Energy-efficient SoC for Generative AI**.  
-- *2025.05*: Completed **RISC-V 3-Stage CPU with UART on FPGA** projects at UC Berkeley. 
-- *2024.09*: I won National Scholarship (top 2%)!
-- *2024.06*: Started leading the project **Thermal Dissipation Mechanism of High-Temperature Hydrogels** at Wuhan University.  
+- *09/2025*: I won Innova International Exchange Scholarship!
+- *06/2025*: Joined Duke University as a module leader in the project **Energy-efficient SoC for Generative AI**.  
+- *05/2025*: Completed **RISC-V 3-Stage CPU with UART on FPGA** projects at UC Berkeley. 
+- *09/2024*: I won National Scholarship (top 2%)!
+- *06/2024*: Started leading the project **Thermal Dissipation Mechanism of High-Temperature Hydrogels** at Wuhan University.  
 
 ---
 
@@ -64,23 +65,24 @@ Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*
 - Built Sample Processing Module (SMP) and Data Similarity Module (DSM).  
 - Led Verilog implementation, co-simulation, and system integration.  
 
-- **RISC-V 3-Stage Pipelined CPU with UART on FPGA** (UC Berkeley, 2025)  
+**RISC-V 3-Stage Pipelined CPU with UART on FPGA** (UC Berkeley, 2025)  
 Designed and implemented from scratch, including hazard detection, forwarding, branch prediction, and UART. Achieved CPI improvement from 1.60 → 1.12 and frequency increase to 90 MHz.  
 
-- **Analog Front-End Circuit Design for IoT Chip** (UC Berkeley, 2025)  
+**Analog Front-End Circuit Design for IoT Chip** (UC Berkeley, 2025)  
 Designed SAR ADC, PGA, BGT, multiplexer, regulators; optimized for low-power IoT applications.  
 
-- **Thermal Dissipation Mechanism of High-Temperature Hydrogels** (Wuhan Univ., 2024– )  
+**Thermal Dissipation Mechanism of High-Temperature Hydrogels** (Wuhan Univ., 2024–2025)  
 Developing predictive model to prevent battery thermal runaway; exploring hydrogels and copper foam.  
 
 ---
 
 # 🎖 Honors and Awards
-- *2024.11* National Scholarship (*Top 2%*)  
-- *2023&2024* University Outstanding Student Scholarship
-- *2023&2024* University Merit Student
-- *2023.09* University Social Activist
-- *2024.09* Outstanding Volunteer of Wuhan University
+- *11/2024* National Scholarship (*Top 2%*)  
+- *09/2025* Innova International Exchange Scholarship
+- *2023,2024* University Outstanding Student Scholarship (*Top 5%*)
+- *2023,2024* University Merit Student
+- *09/2023* University Social Activist
+- *09/2024* Outstanding Volunteer of Wuhan University
 
 ---
 
@@ -91,6 +93,10 @@ Developing predictive model to prevent battery thermal runaway; exploring hydrog
 - *Jan 2025 – May 2025*, **University of California, Berkeley**  
   Berkeley International Study Program · Coursework: Digital Design and IC Circuits (A)
 
+---
+
+# 📄 MANUSCRIPT
+- Hardware Accelerator for Unified Function Processing (UFP) Based on Piecewise Chebyshev Polynomial Approximation  _Manuscript targeting submission to TCAS-I_
 ---
 
 # 💻 Skills
