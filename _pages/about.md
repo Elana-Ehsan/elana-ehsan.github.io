@@ -66,13 +66,13 @@ Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*
 - Led Verilog implementation, co-simulation, and system integration.  
 
 **RISC-V 3-Stage Pipelined CPU with UART on FPGA** (UC Berkeley, 2025)  
-Designed and implemented from scratch, including hazard detection, forwarding, branch prediction, and UART. Achieved CPI improvement from 1.60 → 1.12 and frequency increase to 90 MHz.  
+- Designed and implemented from scratch, including hazard detection, forwarding, branch prediction, and UART. Achieved CPI improvement from 1.60 → 1.12 and frequency increase to 90 MHz.  
 
 **Analog Front-End Circuit Design for IoT Chip** (UC Berkeley, 2025)  
-Designed SAR ADC, PGA, BGT, multiplexer, regulators; optimized for low-power IoT applications.  
+- Designed SAR ADC, PGA, BGT, multiplexer, regulators; optimized for low-power IoT applications.  
 
 **Thermal Dissipation Mechanism of High-Temperature Hydrogels** (Wuhan Univ., 2024–2025)  
-Developing predictive model to prevent battery thermal runaway; exploring hydrogels and copper foam.  
+- Developing predictive model to prevent battery thermal runaway; exploring hydrogels and copper foam.  
 
 ---
 
