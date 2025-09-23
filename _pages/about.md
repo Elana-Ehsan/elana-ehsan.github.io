@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Ziyi Guo (郭子毅)**, an undergraduate student at **Wuhan University, Hongyi Honor College**, majoring in **Microelectronics Science & Engineering (EE)** (GPA: 3.94/4.00, ranked 2/55).  
+I am **Ziyi Guo (郭子毅)**, an undergraduate student at **Wuhan University, Hongyi Honor College**, majoring in **Microelectronics Science & Engineering (EE)** .  
 
 In **Spring 2025**, I studied at **UC Berkeley** through the Berkeley International Study Program, and since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Dr. Changchun Zhou](https://changchun-zhou.github.io/).  
 
@@ -30,29 +30,55 @@ My research interests include:
 ---
 
 # 🔥 News
-- *09/2025*: I won Innova International Exchange Scholarship!
-- *06/2025*: Joined Duke University as a module leader in the project **Energy-efficient SoC for Generative AI**.  
-- *05/2025*: Completed **RISC-V 3-Stage CPU with UART on FPGA** projects at UC Berkeley. 
-- *09/2024*: I won National Scholarship (top 2%)!
-- *06/2024*: Started leading the project **Thermal Dissipation Mechanism of High-Temperature Hydrogels** at Wuhan University.  
+- 09/2025: I won **Innova International Exchange Scholarship**!
+- 06/2025: Joined Duke University as a module leader in the project **Energy-efficient SoC for Generative AI**.  
+- 05/2025: Completed **RISC-V 3-Stage CPU with UART on FPGA** projects at UC Berkeley. 
+- 09/2024: I won **National Scholarship** (top 2%)!
+- 06/2024: Started leading the project **Thermal Dissipation Mechanism of High-Temperature Hydrogels** at Wuhan University.  
 
 ---
 
-<!-- # 📝 Publications 
+# 📖 Educations
+- *Sep 2022 – Jun 2026 (expected)*, **Wuhan University, China**  
+  Hongyi Honor College, B.Eng. in Microelectronics Science & Engineering, GPA: 3.94/4.00, ranked 2/55
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+- *Jan 2025 – May 2025*, **University of California, Berkeley**  
+  Visiting Student, Berkeley International Study Program · Coursework: Digital Design and IC Circuits (A)
+
+---
+
+# 🎖 Honors and Awards
+- 11/2024 **National Scholarship**, *Ministry of Education of China* (**Top 2% nationwide**)  
+- 09/2025 Innova International Exchange Scholarship, *Wuhan University* (**11 recipients university-wide**)
+- 12/2024 University Outstanding Student Scholarship, *Wuhan University* (**Top 5%**)
+- 12/2024 University Merit Student, *Wuhan University*
+- 09/2024 Outstanding Volunteer of Wuhan University, *Wuhan University*
+- 12/2023 University Outstanding Student Scholarship, *Wuhan University* (**Top 5%**)
+- 12/2023 University Merit Student, *Wuhan University*
+- 09/2023 University Social Activist, *Wuhan University*
+
+---
+# 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscript</div><img src='images/UFP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<!-- [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
+Hardware Accelerator for Unified Function Processing Based on Piecewise Chebyshev Polynomial Approximation
+X. Zheng\*, **<u>Z. Guo</u>**\*, etc, et al.
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+*To be submitted to TCAS-I*
+<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- <details>
+<summary>Abstract</summary>
+
+</details> -->
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 📝 Research Experience
 
@@ -76,24 +102,6 @@ Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*
 
 ---
 
-# 🎖 Honors and Awards
-- *11/2024* National Scholarship (*Top 2%*)  
-- *09/2025* Innova International Exchange Scholarship
-- *2023,2024* University Outstanding Student Scholarship (*Top 5%*)
-- *2023,2024* University Merit Student
-- *09/2023* University Social Activist
-- *09/2024* Outstanding Volunteer of Wuhan University
-
----
-
-# 📖 Educations
-- *Sep 2022 – Jun 2026 (expected)*, **Wuhan University, China**  
-  Hongyi Honor College · Major: Microelectronics Science & Engineering (EE)  
-
-- *Jan 2025 – May 2025*, **University of California, Berkeley**  
-  Berkeley International Study Program · Coursework: Digital Design and IC Circuits (A)
-
----
 
 # 📄 MANUSCRIPT
 - Hardware Accelerator for Unified Function Processing (UFP) Based on Piecewise Chebyshev Polynomial Approximation  _Manuscript targeting submission to TCAS-I_
