@@ -78,12 +78,7 @@ X. Zheng\*, **<u>Z. Guo</u>**\*, etc, et al.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
 # 📝 Research Experience
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Duke Univ. 2025</div><img src='images/soc_accelerator.png' alt="soc" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
 
 **Energy-efficient Acceleration SoC for Generative AI**  
 Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*  
