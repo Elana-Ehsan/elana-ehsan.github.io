@@ -268,3 +268,14 @@
     display: none;
   }
 }
+
+.clustrmaps-globe-wrap{
+  opacity:0.6;           /* 半透明，不抢眼 */
+}
+.clustrmaps-globe-wrap:hover{
+  opacity:1;             /* 鼠标移上去再高亮 */
+}
+.clustrmaps-globe-wrap canvas{
+  width:100%!important;
+  height:100%!important;
+}
