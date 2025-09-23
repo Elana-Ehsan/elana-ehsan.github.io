@@ -113,3 +113,9 @@ Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*
 - Invited to sing at the **2024 WA Chinese New Year Ball** for Australian Prime Minister Albanese  
 - Collaborated with **Dai Yuqiang** (One of the "Three Tenors of China")  
 - Member of Volunteer Center and Kungfu Association (2022–2023)  
+
+<div align="center" style="width:50%;">
+  <script type="text/javascript" id="clstr_globe" 
+          src="//clustrmaps.com/globe.js?d=k9EkBsh9ikQhvDJjkDUDLz6oSQ7jA4L1koxq-fT3xcg">
+  </script>
+</div>
