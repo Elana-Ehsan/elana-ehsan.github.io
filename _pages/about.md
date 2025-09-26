@@ -96,11 +96,6 @@ Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*
 
 ---
 
-
-# 📄 MANUSCRIPT
-- Hardware Accelerator for Unified Function Processing (UFP) Based on Piecewise Chebyshev Polynomial Approximation  _Manuscript targeting submission to TCAS-I_
----
-
 # 💻 Skills
 - **Digital IC Design:** RTL coding, SoC IP, DPI-C co-simulation, AXI bus  
 - **EDA Tools:** Cadence, Vivado, ModelSim, VCS  
