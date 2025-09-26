@@ -65,6 +65,7 @@ My research interests include:
 
 <!-- [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
 Hardware Accelerator for Unified Function Processing Based on Piecewise Chebyshev Polynomial Approximation
+
 X. Zheng\*, **<u>Z. Guo</u>**\*, etc, et al.
 
 *To be submitted to TCAS-I*
