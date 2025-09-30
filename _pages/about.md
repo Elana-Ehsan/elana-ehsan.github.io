@@ -23,7 +23,7 @@ In **Spring 2025**, I studied at **UC Berkeley** through the Berkeley Internatio
 
 My research interests include: 
 - Digital IC Design  
-- Energy-efficient AI accelerators (SoC/ASIC) 
+- Chip Design for Energy-efficient AI accelerators (SoC/ASIC) 
 
 <strong style="color:red;">I am actively looking for PhD opportunities in Fall 2026.</strong>
 
