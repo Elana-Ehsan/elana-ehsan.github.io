@@ -40,7 +40,8 @@ My research interests include:
 
 # 📖 Educations
 - *Sep 2022 – Jun 2026 (expected)*, **Wuhan University, China**  
-  Hongyi Honor College, B.Eng. in Microelectronics Science & Engineering, GPA: 3.94/4.00, ranked 2/55
+  Hongyi Honor College, B.Eng. in Microelectronics Science & Engineering, GPA: 3.94/4.00 
+  <!-- , ranked 2/55 -->
 
 - *Jan 2025 – May 2025*, **University of California, Berkeley**  
   Visiting Student, Berkeley International Study Program · Coursework: Digital Design and IC Circuits (A)
