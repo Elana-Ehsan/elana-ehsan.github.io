@@ -17,15 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Ziyi Guo (郭子毅)**, an undergraduate student at **Wuhan University, Hongyi Honor College**, majoring in **Microelectronics Science & Engineering (EE)** .  
+I am a fourth-year undergraduate student at **Wuhan University, Hongyi Honor College**, majoring in **Microelectronics Science and Engineering**. My research focuses on **cross-layer design for AI chips and systems**, spanning from algorithms to architecture and circuit design. My research directions are motivated by bottlenecks observed in real hardware implementations.
 
-In **Spring 2025**, I studied at **UC Berkeley** through the Berkeley International Study Program, and since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Dr. Changchun Zhou](https://changchun-zhou.github.io/).  
+In **Spring 2025**, I studied at **UC Berkeley** as a visiting student. Since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Dr. Changchun Zhou](https://changchun-zhou.github.io/). 
 
 My research interests include: 
-- Digital IC Design  
-- Chip Design for Energy-efficient AI accelerators (SoC/ASIC) 
+- Algorithm–architecture co-design for efficient AI acceleration  
+- Microarchitecture design under bandwidth and dataflow constraints
+- Chip Design for energy-efficient AI accelerators (SoC/ASIC) 
 
-<strong style="color:red;">I am actively looking for PhD opportunities in Fall 2026.</strong>
+More details about my research and projects can be found in my [CV](../docs/Ziyi_s_CV.pdf).
+
+<strong style="color:red;">I am actively seeking Ph.D. opportunities for Fall 2026.</strong>
+
 
 ---
 
@@ -33,12 +37,12 @@ My research interests include:
 - 09/2025: I won **Innova International Exchange Scholarship**!
 - 06/2025: Joined Duke University as a module leader in the project **Energy-efficient SoC for Generative AI**.  
 - 05/2025: Completed **RISC-V 3-Stage CPU with UART on FPGA** projects at UC Berkeley. 
-- 09/2024: I won **National Scholarship** (top 2%)!
+- 09/2024: I won **National Scholarship** (top 0.2% nationwide)!
 - 06/2024: Started leading the project **Thermal Dissipation Mechanism of High-Temperature Hydrogels** at Wuhan University.  
 
 ---
 
-# 📖 Educations
+# 📖 Education
 - *Sep 2022 – Jun 2026 (expected)*, **Wuhan University, China**  
   Hongyi Honor College, B.Eng. in Microelectronics Science & Engineering, GPA: 3.94/4.00 
   <!-- , ranked 2/55 -->
@@ -49,14 +53,12 @@ My research interests include:
 ---
 
 # 🎖 Honors and Awards
-- 11/2024 **National Scholarship**, *Ministry of Education of China* (**Top 2% nationwide**)  
-- 09/2025 Innova International Exchange Scholarship, *Wuhan University* (**11 recipients university-wide**)
-- 12/2024 University Outstanding Student Scholarship, *Wuhan University* (**Top 5%**)
-- 12/2024 University Merit Student, *Wuhan University*
-- 09/2024 Outstanding Volunteer of Wuhan University, *Wuhan University*
-- 12/2023 University Outstanding Student Scholarship, *Wuhan University* (**Top 5%**)
-- 12/2023 University Merit Student, *Wuhan University*
-- 09/2023 University Social Activist, *Wuhan University*
+-  **National Scholarship**, *Ministry of Education of China* (Top 0.2% nationwide), 11/2024
+-  Innova International Exchange Scholarship, *Wuhan University* (11 recipients university-wide), 09/2025
+- University Outstanding Student Scholarship, *Wuhan University* (Top 5%), 2023 & 2024
+- University Merit Student, *Wuhan University*, 2023 & 2024
+- Outstanding Volunteer of Wuhan University, *Wuhan University*, 09/2024
+- University Social Activist, *Wuhan University*, 09/2023
 
 ---
 # 📝 Publications 
@@ -67,15 +69,16 @@ My research interests include:
 <!-- [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
 A Unified Function Processor with Integer Arithmetic Based on Piecewise Chebyshev Polynomial Approximation
 
-X. Zheng\*, **<u>Z. Guo</u>**\*, etc, et al.
+X. Zheng\*, **<u>Z. Guo</u>**\*, et al.
 
 *Submitted to ISCAS 2026*
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>.  -->
 
-<!-- <details>
+<details>
 <summary>Abstract</summary>
+Nonlinear functions are fundamental components in widely applied AI algorithms. However, their hardware implementation presents a major challenge due to the diversity of function types and the full precision requirement (e.g., FP32), which results in significant area and energy overheads. To overcome these issues, we present a Unified Function Processor (UFP) with integer arithmetic, capable of efficiently computing a wide range of nonlinear functions with high accuracy under integer constraints. First, we propose a dynamic programming segmentation algorithm within a third-degree Chebyshev polynomial framework that optimally partitions each function into eight integer-aligned segments to minimize global quantization error. Second, a unified three-stage pipelined hardware with computation element reuse is proposed. Implemented in TSMC 28-nm HPC technology and working at 1GHz, the proposed UFP achieves up to 93.6% reductions in area compared to the state-of-the-art works, with a 79% lower energy consumption. The architecture flexibly supports all mainstream functions in AI algorithms with configurable precision and range, offering a compact and scalable solution for AI acceleration hardware.
 </details> 
--->
+
 </div>
 </div>
 
@@ -83,26 +86,21 @@ X. Zheng\*, **<u>Z. Guo</u>**\*, etc, et al.
 
 **Energy-efficient Acceleration SoC for Generative AI**  
 Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*  
-- Designed Unified Function Processor (UFP) for nonlinear ops (ReLU, GeLU, Softmax).  
-- Built Sample Processing Module (SMP) and Data Similarity Module (DSM).  
-- Led Verilog implementation, co-simulation, and system integration.  
+- Led the design and integration of multiple key IP modules within a generative AI accelerator SoC, including a Unified Function Processor (UFP) for nonlinear operations (ReLU, GeLU, Softmax), sampling and data similarity modules.   
 
 **RISC-V 3-Stage Pipelined CPU with UART on FPGA** (UC Berkeley, 2025)  
-- Designed and implemented from scratch, including hazard detection, forwarding, branch prediction, and UART. Achieved CPI improvement from 1.60 → 1.12 and frequency increase to 90 MHz.  
-
-**Analog Front-End Circuit Design for IoT Chip** (UC Berkeley, 2025)  
-- Designed SAR ADC, PGA, BGT, multiplexer, regulators; optimized for low-power IoT applications.  
+- Built a complete pipelined RISC-V CPU from scratch on FPGA, achieving CPI and frequency improvements and gaining system-level insight into control, data hazards, and verification constraints.
 
 **Thermal Dissipation Mechanism of High-Temperature Hydrogels** (Wuhan Univ., 2024–2025)  
-- Developing predictive model to prevent battery thermal runaway; exploring hydrogels and copper foam.  
+- Conducted interdisciplinary research on thermal management for battery systems.
 
 ---
 
 # 💻 Skills
-- **Digital IC Design:** RTL coding, SoC IP, DPI-C co-simulation, AXI bus  
-- **EDA Tools:** Cadence, Vivado, ModelSim, VCS  
-- **Programming:** Verilog/SystemVerilog, Python, C/C++, SQL, Matlab  
-- **Languages:** English (TOEFL 106, CET-6 639), Chinese (Native)
+- **Digital IC Design:** RTL coding, SoC IP, AXI-4 bus, DPI-C co-simulation
+- **EDA Tools:** Cadence, Synopsys VCS, Vivado, ModelSim
+- **Programming:** Verilog, Python, C/C++, SQL, Matlab  
+- **Languages:** English (TOEFL 106), Chinese (Native)
 
 ---
 
