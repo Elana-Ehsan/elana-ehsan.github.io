@@ -111,8 +111,9 @@ Module leader | *Supervised by Prof. Yiran Chen and Dr. Changchun Zhou*
 - Collaborated with **Dai Yuqiang** (One of the "Three Tenors of China")  
 - Member of Volunteer Center and Kungfu Association (2022–2023)  
 
-<div align="center" style="width:50%; display:none;">
+<!-- <div align="center" style="width:50%; display:none;">
   <script type="text/javascript" id="clstr_globe" 
           src="//clustrmaps.com/globe.js?d=k9EkBsh9ikQhvDJjkDUDLz6oSQ7jA4L1koxq-fT3xcg">
   </script>
-</div>
+</div> -->
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=k9EkBsh9ikQhvDJjkDUDLz6oSQ7jA4L1koxq-fT3xcg&cl=ffffff&w=a"></script>
