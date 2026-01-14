@@ -22,9 +22,10 @@ I am a fourth-year undergraduate student at **Wuhan University, Hongyi Honor Col
 In **Spring 2025**, I studied at **UC Berkeley** as a visiting student. Since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Dr. Changchun Zhou](https://changchun-zhou.github.io/). 
 
 My research interests include: 
-- Algorithm–architecture co-design for efficient AI acceleration  
-- Microarchitecture design under bandwidth and dataflow constraints
-- Chip Design for energy-efficient AI accelerators (SoC/ASIC) 
+- AI accelerator architecture and microarchitecture for edge computing  
+- Hardware–software co-design for efficient AI acceleration
+- Chip design for energy-efficient AI accelerators (SoC/ASIC) under bandwidth and dataflow constraints
+
 
 More details about my research and projects can be found in my [CV](../docs/Ziyi_s_CV.pdf).
 
