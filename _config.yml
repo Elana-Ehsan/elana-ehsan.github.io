@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ziyi Guo (郭子毅)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Wuhan University"
-  location         : "Wuhan, China"
+  bio              : "National University of Singapore"
+  location         : "Singapore"
   employer         :
   pubmed           : 
-  googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "ehsanguo@whu.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=vkYrceEAAAAJ&hl=en&oi=sra"
+  email            : "guoziyi@u.nus.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : "ziyi-guo-02a810350"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0005-4743-6893"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
