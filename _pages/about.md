@@ -17,11 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a fourth-year undergraduate student at **Wuhan University, Hongyi Honor College**, majoring in **Microelectronics Science and Engineering**. My research focuses on **cross-layer design for AI chips and systems**, spanning from algorithms to architecture and circuit design. My research directions are motivated by bottlenecks observed in real hardware implementations.
+I am a first-year PhD student in the **School of Computing at the National University of Singapore (NUS)**, supervised by [Prof. Trevor E. Carlson](https://www.comp.nus.edu.sg/~tcarlson/). My research focuses on **cross-layer design for efficient AI chips and systems**, spanning algorithms, computer architecture, hardware–software co-design, and circuit-level implementation. I am particularly interested in identifying bottlenecks in real hardware systems and addressing them through cross-layer optimization.
 
-In **Spring 2025**, I studied at **UC Berkeley** as a visiting student. Since **Summer 2025**, I have been conducting research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Dr. Changchun Zhou](https://changchun-zhou.github.io/). 
-
-I am also an incoming PhD student in the School of Computing at the National University of Singapore (NUS), starting in Fall 2026.
+Before joining NUS, I studied **Microelectronics Science and Engineering at Wuhan University**. In **Spring 2025**, I studied at **UC Berkeley** as a visiting student. Beginning in **Summer 2025**, I conducted research on **energy-efficient SoC accelerators for generative AI** at **Duke University**, supervised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/) and [Dr. Changchun Zhou](https://changchun-zhou.github.io/).
 
 My research interests include: 
 - AI accelerator architecture and microarchitecture for edge computing  
@@ -33,6 +31,7 @@ More details about my research and projects can be found in my [CV](../docs/Ziyi
 ---
 
 # 🔥 News
+- 08/2026: Started my PhD journey in Computer Science at the **National University of Singapore**.
 - 09/2025: I won **Innova International Exchange Scholarship**!
 - 06/2025: Joined Duke University as a module leader in the project **Energy-efficient SoC for Generative AI**.  
 - 05/2025: Completed **RISC-V 3-Stage CPU with UART on FPGA** projects at UC Berkeley. 
@@ -42,7 +41,12 @@ More details about my research and projects can be found in my [CV](../docs/Ziyi
 ---
 
 # 📖 Education
-- *Sep 2022 – Jun 2026 (expected)*, **Wuhan University, China**  
+- - *Aug 2026 – Present*, **National University of Singapore, Singapore**  
+  School of Computing, Ph.D. in Computer Science
+  Advisor: **Prof. Trevor E. Carlson**
+  Research area: Computer Architecture and AI Systems
+
+- *Sep 2022 – Jun 2026*, **Wuhan University, China**  
   Hongyi Honor College, B.Eng. in Microelectronics Science & Engineering, GPA: 3.94/4.00 
   <!-- , ranked 2/55 -->
 
@@ -52,8 +56,8 @@ More details about my research and projects can be found in my [CV](../docs/Ziyi
 ---
 
 # 🎖 Honors and Awards
--  **National Scholarship**, *Ministry of Education of China* (Top 0.2% nationwide), 11/2024
--  Innova International Exchange Scholarship, *Wuhan University* (11 recipients university-wide), 09/2025
+- **National Scholarship**, *Ministry of Education of China* (Top 0.2% nationwide), 11/2024
+- Innova International Exchange Scholarship, *Wuhan University* (11 recipients university-wide), 09/2025
 - University Outstanding Student Scholarship, *Wuhan University* (Top 5%), 2023 & 2024
 - University Merit Student, *Wuhan University*, 2023 & 2024
 - Outstanding Volunteer of Wuhan University, *Wuhan University*, 09/2024
