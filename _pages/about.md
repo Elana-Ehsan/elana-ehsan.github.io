@@ -26,7 +26,7 @@ My research interests include:
 - Hardware–software co-design for efficient AI acceleration
 - Chip design for energy-efficient AI accelerators (SoC/ASIC) under bandwidth and dataflow constraints
 
-More details about my research and projects can be found in my [CV](docs/Ziyi_s_CV.pdf).
+More details about my research and projects can be found in my [CV](../docs/Ziyi_s_CV.pdf).
 
 ---
 
