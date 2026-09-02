@@ -41,9 +41,11 @@ More details about my research and projects can be found in my [CV](../docs/Ziyi
 ---
 
 # 📖 Education
-- - *Aug 2026 – Present*, **National University of Singapore, Singapore**  
+- *Aug 2026 – Present*, **National University of Singapore, Singapore**  
   School of Computing, Ph.D. in Computer Science
-  Advisor: **Prof. Trevor E. Carlson**
+
+  Advisor: [**Prof. Trevor E. Carlson**](https://www.comp.nus.edu.sg/~tcarlson/)
+
   Research area: Computer Architecture and AI Systems
 
 - *Sep 2022 – Jun 2026*, **Wuhan University, China**  
